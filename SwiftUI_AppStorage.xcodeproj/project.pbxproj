@@ -15,6 +15,8 @@
 		6CD2F554264FFC93003216CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD2F529264FFC92003216CA /* ContentView.swift */; };
 		6CD2F555264FFC93003216CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2F52A264FFC93003216CA /* Assets.xcassets */; };
 		6CD2F556264FFC93003216CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CD2F52A264FFC93003216CA /* Assets.xcassets */; };
+		6CD2F56A2650015B003216CA /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD2F5692650015B003216CA /* ViewModel.swift */; };
+		6CD2F56B2650015B003216CA /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD2F5692650015B003216CA /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		6CD2F54A264FFC93003216CA /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CD2F54E264FFC93003216CA /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		6CD2F550264FFC93003216CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CD2F5692650015B003216CA /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,7 @@
 			children = (
 				6CD2F528264FFC92003216CA /* SwiftUI_AppStorageApp.swift */,
 				6CD2F529264FFC92003216CA /* ContentView.swift */,
+				6CD2F5692650015B003216CA /* ViewModel.swift */,
 				6CD2F52A264FFC93003216CA /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -309,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CD2F553264FFC93003216CA /* ContentView.swift in Sources */,
+				6CD2F56A2650015B003216CA /* ViewModel.swift in Sources */,
 				6CD2F551264FFC93003216CA /* SwiftUI_AppStorageApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CD2F554264FFC93003216CA /* ContentView.swift in Sources */,
+				6CD2F56B2650015B003216CA /* ViewModel.swift in Sources */,
 				6CD2F552264FFC93003216CA /* SwiftUI_AppStorageApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
